@@ -3,66 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>チラシ伝わり度セルフチェック</title>
+    <title>ひだまり訪問介護ステーション | 架空サンプルサイト</title>
     <meta
       name="description"
-      content="自作チラシを配る前に、伝わりやすさをサッと確認できる無料セルフチェックページです。"
+      content="ひだまり訪問介護ステーションの営業用デザイン提案サンプルページです。"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="container">
-      <header class="hero">
-        <h1>チラシ伝わり度セルフチェック</h1>
-        <p>
-          Canvaなどで作ったチラシを配る前に、<br />
-          「ちゃんと伝わるか」をかんたん確認できるページです。
-        </p>
-      </header>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="logo" aria-label="ひだまり訪問介護ステーション トップへ">ひだまり訪問介護ステーション</a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="globalNav">メニュー</button>
+        <nav id="globalNav" class="global-nav" aria-label="グローバルナビゲーション">
+          <a href="#services">サービス内容</a>
+          <a href="#reasons">選ばれる理由</a>
+          <a href="#flow">ご利用の流れ</a>
+          <a href="#contact">お問い合わせ</a>
+        </nav>
+      </div>
+    </header>
 
-      <section class="card intro" aria-label="使い方">
-        <h2>使い方（1分）</h2>
-        <ol>
-          <li>手元のチラシを見ながら、あてはまる項目にチェック</li>
-          <li>「結果を見る」を押す</li>
-          <li>点数とアドバイスを見て、必要なところだけ直す</li>
-        </ol>
-        <p class="note">※結果はあなたのブラウザ内だけで表示され、保存されません。</p>
-      </section>
-
-      <section class="card" aria-labelledby="check-title">
-        <h2 id="check-title">チェック項目</h2>
-        <form id="checkForm">
-          <fieldset>
-            <legend class="sr-only">チラシの伝わり度チェック</legend>
-            <div id="checkList" class="check-list"></div>
-          </fieldset>
-
-          <div class="actions">
-            <button type="button" id="resultBtn" class="btn primary">結果を見る</button>
-            <button type="reset" id="resetBtn" class="btn secondary">リセット</button>
+    <main>
+      <section class="hero section">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-label">地域密着の訪問介護サービス</p>
+            <h1>住み慣れたご自宅で、安心して暮らし続けるために</h1>
+            <p class="hero-sub">ご本人とご家族に寄り添う、地域密着の訪問介護サービス</p>
+            <a class="btn" href="#contact">相談してみる</a>
           </div>
-        </form>
+          <div class="hero-art" aria-hidden="true">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+          </div>
+        </div>
       </section>
 
-      <section id="resultArea" class="card result hidden" aria-live="polite">
-        <h2>診断結果</h2>
-        <p id="scoreText" class="score"></p>
-        <p id="levelText" class="level"></p>
-
-        <div class="advice-wrap">
-          <h3>改善のヒント</h3>
-          <ul id="adviceList"></ul>
+      <section class="section" id="worries">
+        <div class="container">
+          <h2>こんなお悩みはありませんか？</h2>
+          <div class="grid cards-4">
+            <article class="card"><h3>一人暮らしの親が心配</h3></article>
+            <article class="card"><h3>退院後の生活が不安</h3></article>
+            <article class="card"><h3>家事や買い物のサポートがほしい</h3></article>
+            <article class="card"><h3>介護保険サービスについて相談したい</h3></article>
+          </div>
         </div>
+      </section>
 
-        <p class="soft-cta">
-          ひとりで迷うときは、必要ならデザイナーに相談してみましょう。
-        </p>
+      <section class="section alt" id="services">
+        <div class="container">
+          <h2>サービス内容</h2>
+          <div class="grid cards-2">
+            <article class="card icon-card"><h3>身体介護</h3><p>食事・排せつ・入浴など、日常生活に必要な身体的サポートを行います。</p></article>
+            <article class="card icon-card"><h3>生活援助</h3><p>掃除・洗濯・調理・買い物など、暮らしを支える家事援助を行います。</p></article>
+            <article class="card icon-card"><h3>通院・外出サポート</h3><p>通院時の付き添いや移動時の見守りなど、外出時の不安を軽減します。</p></article>
+            <article class="card icon-card"><h3>ご家族への相談対応</h3><p>介護の悩みや制度の疑問について、わかりやすく丁寧にご説明します。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reasons">
+        <div class="container">
+          <h2>選ばれる理由</h2>
+          <ul class="reason-list">
+            <li>地域密着で相談しやすい</li>
+            <li>ご本人のペースを大切にする</li>
+            <li>ご家族にもわかりやすく報告</li>
+            <li>ケアマネジャーとの連携を重視</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section alt" id="flow">
+        <div class="container">
+          <h2>ご利用までの流れ</h2>
+          <ol class="flow-list">
+            <li><span>1</span>相談</li>
+            <li><span>2</span>ヒアリング</li>
+            <li><span>3</span>ケアプラン確認</li>
+            <li><span>4</span>サービス開始</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-box">
+          <h2>お問い合わせ</h2>
+          <p class="tel">000-0000-0000</p>
+          <p class="hours">営業時間：平日 9:00〜17:00</p>
+          <a class="btn" href="#top">まずは相談する</a>
+          <p class="安心文">
+            無理な営業はありません。現在の状況をお聞きした上で、必要なサポートをご案内します。
+          </p>
+        </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <small>© チラシ伝わり度セルフチェック</small>
+    <footer class="site-footer">
+      <small>※こちらはデザイン提案用の架空サンプルサイトです</small>
     </footer>
 
     <script src="script.js"></script>
