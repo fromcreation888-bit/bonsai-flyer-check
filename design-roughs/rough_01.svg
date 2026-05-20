@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280">
+  <rect width="720" height="1280" fill="#F7FAF8"/>
+  <rect x="0" y="0" width="720" height="44" fill="#2E7D6B"/>
+  <text x="16" y="28" font-size="14" fill="white">架空サンプル / 営業提案用モック</text>
+
+  <rect x="32" y="64" rx="18" width="656" height="250" fill="white"/>
+  <rect x="400" y="88" rx="14" width="264" height="202" fill="#D9EEE9"/>
+  <circle cx="470" cy="158" r="34" fill="#fff" opacity="0.9"/>
+  <rect x="520" y="124" width="116" height="12" rx="6" fill="#fff" opacity="0.9"/>
+  <rect x="520" y="144" width="92" height="10" rx="5" fill="#fff" opacity="0.9"/>
+  <rect x="520" y="164" width="106" height="10" rx="5" fill="#fff" opacity="0.9"/>
+  <text x="58" y="118" font-size="24" font-weight="700" fill="#2E7D6B">ひだまり訪問介護ステーション</text>
+  <text x="58" y="148" font-size="16" fill="#58616B">家族が見て安心できる、やさしい在宅介護</text>
+  <rect x="58" y="186" rx="14" width="156" height="38" fill="#2E7D6B"/>
+  <text x="89" y="210" font-size="15" fill="white">電話で相談</text>
+  <rect x="224" y="186" rx="14" width="156" height="38" fill="white" stroke="#2E7D6B"/>
+  <text x="251" y="210" font-size="15" fill="#2E7D6B">フォーム相談</text>
+  <text x="58" y="248" font-size="13" fill="#7A838C">※このページは架空の営業用サンプルです。</text>
+
+  <rect x="32" y="334" rx="18" width="656" height="132" fill="white"/>
+  <text x="54" y="364" font-size="18" font-weight="700" fill="#2E7D6B">サービスカード</text>
+  <rect x="54" y="382" rx="12" width="194" height="66" fill="#D9EEE9"/><rect x="262" y="382" rx="12" width="194" height="66" fill="#D9EEE9"/><rect x="470" y="382" rx="12" width="194" height="66" fill="#D9EEE9"/>
+  <text x="72" y="420" font-size="13" fill="#334">身体介護</text><text x="280" y="420" font-size="13" fill="#334">生活援助</text><text x="488" y="420" font-size="13" fill="#334">自費サポート</text>
+
+  <rect x="32" y="484" rx="18" width="656" height="148" fill="white"/>
+  <text x="54" y="516" font-size="18" font-weight="700" fill="#2E7D6B">ご利用までの流れ</text>
+  <rect x="54" y="534" width="610" height="4" rx="2" fill="#E1E6EB"/>
+  <circle cx="98" cy="536" r="14" fill="#2E7D6B"/><circle cx="286" cy="536" r="14" fill="#2E7D6B"/><circle cx="474" cy="536" r="14" fill="#2E7D6B"/><circle cx="662" cy="536" r="14" fill="#2E7D6B"/>
+  <text x="76" y="578" font-size="12" fill="#475">相談</text><text x="258" y="578" font-size="12" fill="#475">訪問</text><text x="445" y="578" font-size="12" fill="#475">計画</text><text x="634" y="578" font-size="12" fill="#475">開始</text>
+
+  <rect x="32" y="650" rx="18" width="656" height="128" fill="#D9EEE9"/>
+  <text x="54" y="684" font-size="18" font-weight="700" fill="#2E7D6B">まずは家族相談から</text>
+  <text x="54" y="708" font-size="14" fill="#4F5A64">費用感・訪問回数・連携方法を1分で確認できます</text>
+  <rect x="472" y="674" rx="14" width="192" height="42" fill="#2E7D6B"/>
+  <text x="516" y="700" font-size="15" fill="white">無料で相談する</text>
+
+  <rect x="32" y="796" rx="18" width="656" height="168" fill="white"/>
+  <text x="54" y="828" font-size="18" font-weight="700" fill="#2E7D6B">よくあるご質問</text>
+  <rect x="54" y="842" rx="10" width="612" height="32" fill="#F6F8FA"/><rect x="54" y="882" rx="10" width="612" height="32" fill="#F6F8FA"/><rect x="54" y="922" rx="10" width="612" height="32" fill="#F6F8FA"/>
+
+  <rect x="32" y="984" rx="18" width="656" height="168" fill="white"/>
+  <text x="54" y="1018" font-size="18" font-weight="700" fill="#2E7D6B">お問い合わせ</text>
+  <rect x="54" y="1034" rx="10" width="300" height="40" fill="#F7F9FB"/>
+  <rect x="366" y="1034" rx="10" width="300" height="40" fill="#F7F9FB"/>
+  <rect x="54" y="1082" rx="10" width="612" height="40" fill="#F7F9FB"/>
+  <rect x="504" y="1090" rx="12" width="162" height="44" fill="#2E7D6B"/>
+  <text x="556" y="1117" font-size="15" fill="white">送信</text>
+
+  <text x="32" y="1208" font-size="26" font-weight="700" fill="#2E7D6B">01. ミニマル安心型</text>
+</svg>
